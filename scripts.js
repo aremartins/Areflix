@@ -16,7 +16,7 @@ function Buscar() {
     var res = ''
     if (busca == nomeFilmes[i]){
         document.write('<div class="catalog">'  + '<a href="' + trailers[i] +  '"' + 'target="_blank">' + '<img src=' +  listaFilmes[i] + '>'  + '</a>' + '<span class="title">' + nomeFilmes[i] + '</span>' + '</div>')
-        document.write('<a href= "https://codepen.io/aremartins/pen/gOgaZdy?editors=0010"> Voltar </a>' )
+        document.write('<a href= "https://aremartins.github.io/Areflix/"> Voltar </a>' )
     }
   }
 }
